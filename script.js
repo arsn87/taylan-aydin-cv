@@ -49,14 +49,6 @@ document.addEventListener('DOMContentLoaded', function() {
           }
       });
   });
-
-  const darkModeMql = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
-
-    if (darkModeMql && darkModeMql.matches) {
-    localStorage.setItem('theme', 'dark');
-    } else {
-    localStorage.setItem('theme', 'light');
-    }
   
   const checkInitialActive = () => {
       const hash = window.location.hash;
