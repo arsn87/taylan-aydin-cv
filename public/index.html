@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taylan Aydın - Yazılımcı - Özgeçmiş ve Kişisel Web Sitesi">
+    <title>Taylan Aydın - Özgeçmişim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="theme-toggle" title="Tema Değiştir">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </div>
+
+    <div class="cv-container">
+        <header class="cv-header">
+            <h1>Özgeçmişim</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#egitim"><i class="fas fa-graduation-cap"></i> Eğitimim</a></li>
+                    <li><a href="#deneyim"><i class="fas fa-code"></i> Projelerim</a></li>
+                    <li><a href="#iletisim"><i class="fas fa-envelope"></i> İletişim</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <section class="left-column">
+                <div class="content-wrapper">
+                    <div class="name-section" data-aos="fade-up">
+                        <h2>Taylan Aydın</h2>
+                        <hr class="name-underline">
+                        <p class="title">Yazılımcı</p>
+                    </div>
+
+                    <div id="egitim" class="cv-section" data-aos="fade-up">
+
+                        <h3>Eğitim Geçmişi</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Yeditepe Üniversitesi</h4>
+                                    <p class="timeline-date">2023-2027</p>
+                                    <p>Bilişim Sistemleri ve Teknolojileri</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Özel İvme Fen Lisesi</h4>
+                                    <p class="timeline-date">2018-2021</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Gökşen Mustafa Yücel Anadolu Lisesi</h4>
+                                    <p class="timeline-date">2017-2018</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="deneyim" class="cv-section">
+                        <h3>Bazı Projelerim</h3>
+
+                        <div class="experience-cards">
+                            <a href="https://random-isim.web.app/" target="_blank" class="project-link" title="Random İsim Üretici Projesini Ziyaret Et">
+                                <div class="experience-card">
+                                    <div class="card-header">
+                                        <h4>Random İsim Üretici</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                            <a href="https://random-sifre-projesi.web.app/" target="_blank" class="project-link" title="Random Şifre Üretici Projesini Ziyaret Et">
+                                <div class="experience-card">
+                                    <div class="card-header">
+                                        <h4>Random Şifre Üretici</h4>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="https://klavye-tester.web.app/" target="_blank" class="project-link" title="Klavye Tester Projesini Ziyaret Et">
+                                <div class="experience-card">
+                                    <div class="card-header">
+                                        <h4>Tam Kapsamlı Klavye Tester</h4>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="right-column">
+                <div class="photo-area">
+                    <img src="media/IMG_8518.JPG" alt="Taylan Aydın Profil Fotoğrafı">
+                </div>
+                <div id="iletisim" class="contact-info" data-aos="fade-left">
+                    <div class="contact-left">
+                        <a href="https://www.linkedin.com/in/taylan-ayd%C4%B1n-a5a615300/" target="_blank" class="contact-item social-link" title="LinkedIn Profilim">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.instagram.com/taylanaydiinn/" target="_blank" class="contact-item social-link" title="Instagram Profilim">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+90 (530) 942 62 97</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>taylan.aydin24@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <p><strong>Adresim:</strong></p>
+                        <p>İnönü, Kayışdağı Cd. No:326/A, 34755 Ataşehir/İstanbul</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="cv-footer">
+            <p>&copy; <span id="current-year">2025</span> Taylan Aydın</p>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
