@@ -52,13 +52,13 @@ document.addEventListener('DOMContentLoaded', function() {
         sections.forEach(id => {
             const section = document.getElementById(id);
             if (!section) return;
-            if (scrollPosition >= section.offsetTop && scrollPosition < section.offsetTop + section.offsetHeight) {
+            if (scrollPosition >= section.offsetTop) {
                 currentActive = id;
             }
         });
 
-        if (!currentActive && (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50) {
-            currentActive = 'iletisim';
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50) {
+            currentActive = sections[sections.length - 1];
         }
 
         navLinks.forEach(link => {
