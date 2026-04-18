@@ -593,7 +593,7 @@ body {
 /* Responsive */
 @media (max-width: 900px) {
     .cv-header {
-        padding: 14px 70px 14px 24px;
+        padding: 14px 24px;
         flex-direction: column;
         gap: 14px;
     }
